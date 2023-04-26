@@ -32,3 +32,6 @@ Turn on the Raspberry Pi and log in using the USB keyboard and mouse.
 ```sudo apt install python3-rpi.gpio python3-spidev python3-pip python3-pil python3-numpy```
 ```sudo apt install ST7735```
 
+## Run the program 
+```python telepromptermirror.py```
+```python teleprompter.py```
