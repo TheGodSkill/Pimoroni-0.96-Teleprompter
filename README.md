@@ -1,4 +1,5 @@
 # Teleprompter with the 0.96" Display Breakout from Pimoroni
+# I want to clarify that I am not in any way affiliated with Pimoroni." or "Just to make it clear, I have no partnership or association with Pimoroni
 This project is about building a teleprompter using a Pimoroni 0.96" display. With this teleprompter, you can easily read your scripts while recording videos or giving speeches without having to memorize everything.
 The Teleprompter.py is a normal Teleprompter and the telepromptermirror.py is simliar but it mirrors the image for the use for smart glasses.
 You will need an Script.txt and insert it into the same Folder the Program is in
