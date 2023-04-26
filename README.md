@@ -1,5 +1,5 @@
 # Teleprompter with the 0.96" Display Breakout from Pimoroni
-# I want to clarify that I am not in any way affiliated with Pimoroni." or "Just to make it clear, I have no partnership or association with Pimoroni
+## I want to clarify that I am not in any way affiliated with Pimoroni." or "Just to make it clear, I have no partnership or association with Pimoroni
 This project is about building a teleprompter using a Pimoroni 0.96" display. With this teleprompter, you can easily read your scripts while recording videos or giving speeches without having to memorize everything.
 The Teleprompter.py is a normal Teleprompter and the telepromptermirror.py is simliar but it mirrors the image for the use for smart glasses.
 You will need an Script.txt and insert it into the same Folder the Program is in
@@ -16,7 +16,7 @@ Installation
 Connect the Pimoroni display to the Raspberry Pi using the jumper wires. Refer to the Pimoroni website for instructions on how to connect the display.
 
 
-## Here's which pins to connect between your 0.96" LCD Breakout and your Pi's GPIO (note that it's BCM pin numbering):
+### Here's which pins to connect between your 0.96" LCD Breakout and your Pi's GPIO (note that it's BCM pin numbering):
 
 - 3-5V to any 5V or 3V pin
 - CS to BCM 7
@@ -28,13 +28,13 @@ Connect the Pimoroni display to the Raspberry Pi using the jumper wires. Refer t
 
 Turn on the Raspberry Pi and log in using the USB keyboard and mouse.
 
-## Open the terminal and enter the following commands:
+### Open the terminal and enter the following commands:
 ```git clone https://github.com/TheGodSkill/PimoroniTeleprompter```
 ```sudo apt-get update```
 ```pip install Pillow```
 ```sudo apt install python3-rpi.gpio python3-spidev python3-pip python3-pil python3-numpy```
 ```sudo apt install ST7735```
 
-## Run the program 
+### Run the program 
 ```python telepromptermirror.py```
 ```python teleprompter.py```
