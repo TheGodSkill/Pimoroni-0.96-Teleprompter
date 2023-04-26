@@ -1,5 +1,6 @@
 # Teleprompter with the 0.96" Display Breakout from Pimoroni
 This project is about building a teleprompter using a Pimoroni 0.96" display. With this teleprompter, you can easily read your scripts while recording videos or giving speeches without having to memorize everything.
+The Teleprompter.py is a normal Teleprompter and the telepromptermirror.py is simliar but it mirrors the image for the use for smart glasses.
 
 Requirements
 - Raspberry Pi (any model (this was designed for the Raspberry Pi Zero W)
@@ -27,3 +28,7 @@ Turn on the Raspberry Pi and log in using the USB keyboard and mouse.
 
 ## Open the terminal and enter the following commands:
 ```sudo apt-get update```
+```pip install Pillow```
+```sudo apt install python3-rpi.gpio python3-spidev python3-pip python3-pil python3-numpy```
+```sudo apt install ST7735```
+
