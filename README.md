@@ -29,6 +29,7 @@ Connect the Pimoroni display to the Raspberry Pi using the jumper wires. Refer t
 Turn on the Raspberry Pi and log in using the USB keyboard and mouse.
 
 ## Open the terminal and enter the following commands:
+```git clone https://github.com/TheGodSkill/PimoroniTeleprompter```
 ```sudo apt-get update```
 ```pip install Pillow```
 ```sudo apt install python3-rpi.gpio python3-spidev python3-pip python3-pil python3-numpy```
